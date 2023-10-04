@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- сложение -->
+    <section>
+        <div class="first">
+            <h2>сложение</h2>
+            <input type="text" class="number">
+            <span>+</span>
+            <input type="text" class="number">
+            <button onclick="sum()" class="btn">=</button>
+            <span class="result"></span>
+        </div>
+    </section>
+
+    <!-- среднее арифметическое -->
+    <section>
+        <div class="second">
+            <h2>среднее арифметическое</h2>
+            <input type="text" class="number">
+            <span>+</span>
+            <input type="text" class="number">
+            <button onclick="average()" class="btn">=</button>
+            <span class="result"></span>
+        </div>
+    </section>
+
+    <!-- среднее арифметическое квадратов чисел НЕ РАБОТАЕТ -->
+    <!-- <section>
+        <div class="third">
+            <h2>среднее арифметическое квадратов чисел</h2>
+            <input type="text" class="number">
+            <span>+</span>
+            <input type="text" class="number">
+            <button onclick="averageScuares()" class="btn">=</button>
+            <span id="result"></span>
+        </div>
+    </section> -->
+
+     <!-- среднее арифметическое квадратов чисел -->
+    <section>
+        <div class="third">
+            <h2>среднее арифметическое квадратов чисел</h2>
+            <input type="text" class="number">
+            <span>+</span>
+            <input type="text" class="number">
+            <button onclick="averageSquares()" class="btn">=</button>
+            <span id="result1"></span>
+        </div>
+    </section>
+
+
+    <!-- калькулятор  НЕ РАБОТАЕТ-->
+    <!-- <section>
+        <div class="fourth">
+            <input id="num1" />
+            <button onclick="operator='+'">+</button>
+            <button onclick="operator='-'">-</button>
+            <button onclick="operator='*'">x</button>
+            <button onclick="operator='/'">/</button>
+            <input id="num2" />
+            <button onclick="func()">=</button>
+            <span id="result"></span>
+
+        </div>
+    </section> -->
+
+
+    <!-- калькулятор -->
+    <section>
+        <div class="fourth">
+            <h2>калькулятор</h2>
+            <input id="num1" />
+            <button onclick="operator='+'">+</button>
+            <button onclick="operator='-'">-</button>
+            <button onclick="operator='*'">x</button>
+            <button onclick="operator='/'">/</button>
+            <input id="num2" />
+            <button onclick="func()">=</button>
+            <span id="result2"></span>
+
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
