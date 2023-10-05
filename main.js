@@ -1,19 +1,19 @@
 // функция с суммой
 function sum(){
-    let num1 = document.getElementsByClassName("number")[0].value;
-    let num2 = document.getElementsByClassName("number")[1].value;
-    let sum = Number(num1) + Number(num2);
-    let result = document.getElementsByClassName("result")[0];
-    result.innerHTML = sum;
+  let num1 = document.getElementsByClassName("number")[0].value;
+  let num2 = document.getElementsByClassName("number")[1].value;
+  let sum = Number(num1) + Number(num2);
+  let result = document.getElementsByClassName("result")[0];
+  result.innerHTML = sum;
 }
 
 // функция со средним арифметическим
 function average(){
-    let num1 = document.getElementsByClassName("number")[2].value;
-    let num2 = document.getElementsByClassName("number")[3].value;
-    let average = (Number(num1) + Number(num2)) / 2;
-    let result = document.getElementsByClassName("result")[1];
-    result.innerHTML = average;
+  let num1 = document.getElementsByClassName("number")[2].value;
+  let num2 = document.getElementsByClassName("number")[3].value;
+  let average = (Number(num1) + Number(num2)) / 2;
+  let result = document.getElementsByClassName("result")[1];
+  result.innerHTML = average;
 }
 
 // функция со средним арифметическим квадратов чисел НЕ РАБОТАЕТ
